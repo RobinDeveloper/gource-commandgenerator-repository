@@ -11,5 +11,5 @@
 
 </script>
 
-<button on:click={HandleClick}> add {Text} with value</button>
+<button on:click={HandleClick}> add {Text}</button>
 <input bind:value={Number} placeholder="{Placeholder}">
