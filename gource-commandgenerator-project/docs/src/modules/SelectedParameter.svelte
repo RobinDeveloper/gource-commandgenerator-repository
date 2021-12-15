@@ -52,6 +52,22 @@
         --borderRadius: 10px;
         --placeholderColor: gray;
     }
+
+    button {
+        font-family: 'OCR A', cursive;
+        transition-duration: 0.4s;
+        background-color: white; /* Green */
+        color: black;
+    }
+
+    button:hover {
+        background-color: black; /* Green */
+        color: white;
+    }
+
+    Select {
+        font-family: 'OCR A', cursive;
+    }
 </style>
 
 <div class="themed">

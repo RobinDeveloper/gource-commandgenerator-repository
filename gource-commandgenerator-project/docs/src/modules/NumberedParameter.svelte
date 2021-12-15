@@ -13,3 +13,21 @@
 
 <button on:click={HandleClick}> add {Text}</button>
 <input bind:value={Number} placeholder="{Placeholder}">
+
+<style>
+    button {
+        font-family: 'OCR A', cursive;
+        transition-duration: 0.4s;
+        background-color: white;
+        color: black;
+    }
+
+    button:hover {
+        background-color: black; /* Green */
+        color: white;
+    }
+
+    input {
+        font-family: 'OCR A', cursive;
+    }
+</style>

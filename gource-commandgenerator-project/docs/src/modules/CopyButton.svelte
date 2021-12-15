@@ -25,3 +25,9 @@
 </script>
 
 <button on:click="{ButtonClicked}">Copy command to clipboard</button>
+
+<style>
+    button {
+        font-family: 'OCR A', cursive;
+    }
+</style>
